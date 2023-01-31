@@ -1,0 +1,40 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,700,500|Abril+Fatface:400|Jost:400,500");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/63f53cad687de76c69c211f1.63f53cae94e696a753400af4.Nn5jiZi.vcp.png");
+
+@font-face {
+  font-family: "Font Awesome 5 Brands-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5b59ac6041bb8600090b709d/Font Awesome 5 Brands-Regular-400.otf")
+    format("opentype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+/* .container-center-horizontal {
+  display: flex;
+  justify-content: center;
+  width: auto;
+} */
+
+* {
+  box-sizing: border-box;
+}
